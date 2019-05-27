@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos/estilo2.0.css">
+   <title>Login- teste</title>
+</head>
+
+<body class="fundo">
+    <div class="formulario">
+        <img src="http://2.bp.blogspot.com/_QihlNRuPsYk/Sx6YjjFrVCI/AAAAAAAAAPI/3SDGTpAlfUc/w1200-h630-p-k-no-nu/160s8eh.png" id="logo">
+        <div class="form">
+            <h1>Tela de Login</h1>
+            <br><br>
+            <form>
+                <p>Login</p>
+                <input type="text" id="login" placeholder="Login" required>
+                <br>
+
+                <p>Senha</p>
+                <input type="password" id="senha" placeholder="Senha" required>
+                <br>
+
+                
+                
+
+                
+                <br><br>
+                
+                <div class="botao">
+                    <button type="" class="entrar" onclick="validar()">Login</button>
+                    <a href=""><button type="button" class="sair">Sair</button></a> 
+                </div>
+
+                <a href="" class="esqueci"><b>Esqueci a senha</b></a>
+                <br>
+                <a href="cadastro.html" class="cadastro"><b>Quero me Cadastrar</b></a>
+
+                
+                
+            </form>
+            
+            
+            
+        </div>
+    </div>
+</body>
+</html>
+<script>
+function validar() {
+    var l= login.value;
+    var p= senha.value;
+        if (l=="mar" && p=="mar") {
+            
+           alert(`Bem vinda!!!`)
+        }
+              
+        else if(l=='thiago' && p=='thiago'){
+           alert(`Bem Vindo!!`);
+          
+        }
+
+       
+        else{
+            alert(`Acesso negado!`)
+    }
+
+}
+</script>

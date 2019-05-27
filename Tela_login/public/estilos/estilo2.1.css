@@ -1,0 +1,60 @@
+html{
+    background-color: beige;
+    background: url(https://www.hypeness.com.br/wp-content/uploads/2014/02/NicholasBuerAstrophotography2.jpg);
+    /* background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    width: 100%; */
+}
+
+
+body{
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+.form{
+    border-radius: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    height: 600px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(189, 142, 250, 0.705);
+}
+
+.form input{
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.form p, input{
+   margin-top: - 5px;
+}
+
+.form p{
+    color: white;
+}
+
+
+.entrar {
+    background-color:rgb(175, 125, 240);
+    border-radius: 2px;
+    border: 1px solid rgb(189, 142, 250);
+    padding: 10px;
+    color: wheat;
+    
+}
+
+.sair {
+    background-color: rgb(175, 125, 240);
+    border-radius: 2px;
+    border: 1px solid rgb(189, 142, 250) ;
+    padding: 10px;
+    color: wheat;
+}    
+    
